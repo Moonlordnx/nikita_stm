@@ -55,7 +55,7 @@ int main(void) {
     
     // Бесконечный цикл
     while (1) {
-        USART2_SendString("Hello, Nikita\r\n");
+        USART2_SendString("👋 Hello, Nikita! 🌟\n");
         Delay_ms(1000); // Задержка 1 секунда
     }
 }

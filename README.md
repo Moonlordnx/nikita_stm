@@ -52,10 +52,11 @@ int main(void) {
 **Файл:** `platformio.ini`
 
 ```ini
-[env:stm32f4]
-platform = stm32
-board = genericSTM32F407VET6
+[env:disco_f407vg] #1
+platform = ststm32
+board = disco_f407vg
 framework = cmsis
+monitor_speed = 115200
 ```
 
 ---
